@@ -1,0 +1,9 @@
+mvn test –DCucumber.options=”Your Options”
+
+mvn test -Dcucumber.options=”–tags @tag Name”	
+
+
+mvn test –
+cucumber.options=”src/test/resources/functionalTests/End2End_Tests.feature” -Dcucumber.options=”–tags @Smoke”
+
+mvn test -Dcucumber.options=”–plugin junit:target/cucumber-reports/report.xml”.
